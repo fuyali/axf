@@ -1,0 +1,219 @@
+/*头部*/
+header{
+	width: 10rem;
+	height: 1.4375rem;
+	line-height: 1.4375rem;
+	background: #ffd600;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+
+}
+header p{
+	font-size: 0.21875rem;
+	color: #2c2a20;
+	line-height: 0.625rem;
+}
+/*地址*/
+.address{
+	float: left;
+	font-size: 0.4375rem;
+	color: #333;
+	font-weight: bold;
+	margin-left: 2.875rem;
+}
+.address span{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 0.1875rem solid transparent;
+	border-top: 0.265625rem solid #333;
+	vertical-align: middle;
+	margin-top: 0.125rem;
+	margin-left: 0.078125rem;
+}
+/*搜索*/
+.search{
+	float: right;
+	padding: 0.21875rem 0.15625rem 0 0;
+}
+.search img{
+	width: 0.625rem;
+	height: 0.625rem; 
+}
+/*main*/
+#main{
+	margin-top: 1.4375rem;
+	margin-bottom: 1.5625rem;
+	display: flex;
+	justify-content: space-between;
+}
+/*主体左边菜单*/
+.main_menu{	
+	background: #f8f8f8;
+}
+.main_menu ul{
+	height: 16.1875rem;
+	overflow-y: scroll;
+}
+.main_menu ul li{
+	width: 2.390625rem;
+	height: 1.28125rem;
+	border-top: 0.015625rem solid #dfdfdf;
+	border-bottom: 0.015625rem solid #e8e8e8;
+	text-align: center;
+	padding-top: 0.078125rem;
+}
+.main_menu ul li:nth-of-type(2){
+	background: url(/sscs/img/hot.png) no-repeat right top;
+	background-size: 0.84375rem 0.84375rem;
+}
+.main_menu ul li a{
+	display: block;
+	height: 1.09375rem;
+	vertical-align: middle;
+	line-height: 1.28125rem;
+	font-size: 0.375rem;
+	color: #6c6c6c;
+}
+
+/*.main_menu ul li:first-of-type a{
+	border-left: 0.140625rem solid #ffd700;
+}*/
+.main_menu ul li .addLeftBorder{
+	border-left: 0.140625rem solid #ffd700;
+}
+/*主体右边导航*/
+.main_content{
+	width: 7.5rem;
+}
+.main_cont_top{
+	display: flex;
+	background: #fff;
+	text-align: center;
+	height: 1.265625rem;
+	border-bottom: 0.015625rem solid #ececec;
+	position: fixed;
+	top: 1.4375rem;
+	z-index: 99;
+}
+.main_cont_top p{
+	height: 0.609375rem;
+	color: #898989;
+	font-size: 0.34375rem;
+	vertical-align: middle;
+	border-right: 0.015625rem solid #d8d8d8;
+	margin: 0.34375rem 0;
+}
+.ranking p{
+	border-left: 0.015625rem solid #e8e8e8;
+	border-right: none;
+}
+.main_cont_top>div{
+	width: 3.734375rem;
+}
+.main_cont_top span{
+	display: inline-block;
+	width: 0.46875rem;
+	height: 0.1875rem;
+	background: url(/sscs/img/triangle_btm.jpg) no-repeat right center;
+	background-size:  0.3125rem 0.1875rem;
+}
+/*右边下单部分*/
+.main_con_btm ul{
+	height: 16.1875rem;
+	overflow-y: scroll;
+	margin-top: 1.265625rem;
+}
+.main_con_btm li{
+	border-bottom: 0.03125rem solid #e0e0e0;
+	padding: 0.078125rem 0;
+	position: relative;
+}
+.main_con_btm li a{
+	display: flex;
+}
+.main_con_btm ul li img{
+	width: 2.8125rem;
+	height: 2.8125rem;
+}
+.main_con_btm .xh_text h4{
+	font-size: 0.359375rem;
+	color: #44484b;
+	padding-top: 0.1875rem;
+}
+.main_con_btm .xh_text p:nth-of-type(1) i{
+	display: inline-block;
+	width: 0.796875rem;
+	line-height: 0.46875rem;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.296875rem;
+	color: #e80000;
+	border: 0.03125rem solid #e80000;
+	border-radius: 0.078125rem;
+	margin: 0.15625rem 0;
+	vertical-align: middle;
+	margin-right: 0.1875rem;
+}
+.main_con_btm .xh_text p:nth-of-type(1) span{
+	display: inline-block;
+	width: 1.453125rem;
+	height: 0.484375rem;
+	text-align: center;;
+	line-height: 0.484375rem;
+	background: #fe0000;
+	color: #fff;
+	font-size: 0.28125rem;
+	border-radius: 0.09375rem;
+	vertical-align: middle;
+}
+
+.main_con_btm .xh_text p:nth-of-type(2){
+	font-size: 0.34375rem;
+	color: #b7b7b7;
+	padding-bottom: 0.15625rem;
+}
+.main_con_btm .xh_text p:nth-of-type(3){
+	font-size: 0.265625rem;
+	color: #f17142;
+	font-weight: bold;
+}
+.main_con_btm .xh_text p:nth-of-type(3) span{
+	color: #9d9d9d;
+	font-size: 0.265625rem;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+
+/*加减*/
+.plus_mul{
+	display: flex;
+	position: absolute;
+	top: 1.640625rem;
+	right: 0.3125rem;
+}
+.plus_mul>span{
+	display: block;
+	width: 0.34375rem;
+	height: 0.328125rem;
+	background: url(/home/img/plus.jpg) no-repeat center;
+	background-size: 0.34375rem 0.328125rem;
+	border: 0.03125rem solid #f3c6ae;
+	border-radius: 50%;
+	padding: 0.234375rem;
+
+}
+.plus_mul .minus{
+	display: none;
+	background: url(/home/img/minus.jpg) no-repeat center;
+	background-size: 0.34375rem 0.328125rem;
+}
+.number{
+	display: none;
+	font-size: 0.28125rem;
+	color: #252525;
+	padding: 0.25rem;
+}

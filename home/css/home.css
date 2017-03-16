@@ -1,0 +1,262 @@
+/*头部*/
+header{
+	width: 10rem;
+	height: 1.4375rem;
+	line-height: 1.4375rem;
+	background: #ffd600;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+
+}
+header p{
+	line-height: 0.625rem;
+}
+header p a{
+	font-size: 0.21875rem;
+	color: #2c2a20;
+}
+.sweep{
+	float: left;
+	padding: 0.25rem 2.8125rem 0 0.203125rem;
+}
+.sweep img{
+	width: 0.546875rem;
+	height: 0.5625rem;
+	padding-left: 0.125rem;
+	vertical-align: middle;
+}
+
+/*地址*/
+.address{
+	float: left;
+	font-size: 0.4375rem;
+	color: #333;
+	font-weight: bold;
+}
+.address span{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 0.1875rem solid transparent;
+	border-top: 0.265625rem solid #333;
+	vertical-align: middle;
+	margin-top: 0.125rem;
+	margin-left: 0.078125rem;
+}
+/*搜索*/
+.search{
+	float: right;
+	padding: 0.21875rem 0.15625rem 0 0;
+}
+.search img{
+	width: 0.625rem;
+	height: 0.625rem;
+}
+
+/*轮播图*/
+#banner{
+	margin-top: 1.4375rem;
+}
+#banner .swiper-container{
+	width: 10.0rem;
+	height: 3.75rem;
+}
+#banner .swiper-container img{
+	width: 10.0rem;
+	height: 3.75rem;
+}
+/*主体内容*/
+#main{
+	width: 10rem;
+	background: #efefef;
+	margin: 0 auto 1.5625rem auto;
+	padding-top: 0.001563rem;
+}
+.main_top{
+	margin-top: 0.375rem;
+	background: #fff;
+	border-bottom: 0.015625rem solid #e0e0e0;
+}
+.main_top ul{
+	display: flex;
+	padding: 0.4375rem 0.734375rem;
+	justify-content: space-between;
+}
+.main_top ul li {
+	text-align: center;
+}
+.main_top ul li img{
+	width: 2.15625rem;
+	height: 1.46875rem;
+	vertical-align: middle;
+}
+.main_top ul li span{
+	font-size: 0.34375rem;
+	color: #353d44;
+	line-height: 0.53125rem;
+}
+/*伊利大放价*/
+.xf_top{
+	margin-top: 0.375rem;
+
+}
+.xf_top ul{
+	display: flex;
+}
+.xf_top ul li img{
+	width: 3.34375rem;
+	height: 4.34375rem;
+}
+.xf_top ul li:nth-of-type(2) img{
+	width: 3.3125rem;
+	height: 4.34375rem;
+}
+/*便利店*/
+.easy_store{
+	margin-top: 0.375rem;
+	background: #fff;
+}
+.easy_store .bl_title img{
+	width: 10rem;
+	height: 1.640625rem;
+}
+.bl_xr{
+	padding: 0 0.3125rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bl_xr a img{
+	width: 4.5625rem;
+	height: 1.84375rem;
+}
+.bl_list{
+	padding: 0.1875rem 0.3125rem ;
+}
+.bl_list ul{
+	display: flex;
+	justify-content: space-between;
+}
+.bl_list ul li{
+	text-align: center;
+}
+.bl_list ul li a{
+	font-size: 0.359375rem;
+	color: #333;
+}
+.bl_list ul li img{
+	width: 2.15625rem;
+	height: 1.46875rem;
+}
+/*办公室零食*/
+.bl_ls ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0.546875rem;
+}
+
+.bl_ls ul img{
+	width: 4.96875rem;
+	height: 2.015625rem;
+}
+.bl_ls ul li{
+	border-top: 0.015625rem solid #d6d6d6;
+	border-right: 0.015625rem solid #d6d6d6;
+}
+.bl_ls ul li:nth-of-type(2),.bl_ls ul li:nth-of-type(4){
+	border-left: 0.015625rem solid #d6d6d6;
+	border-right: none;
+}
+/*优选水果*/
+.xhsg{
+	background: #fff;
+	padding-top: 0.001563rem;
+	margin-top: 0.375rem;
+}
+.xhsg h2{
+	margin: 0.40625rem 0.296875rem 0.359375rem 0.296875rem;
+	color: #f38631;
+	font-size: 0.421875rem;
+	border-left: 0.25rem solid #f38631;
+	padding-left: 0.1875rem;
+}
+.xhsg h2 a{
+	float: right;
+	color: #a0a0a0;
+	font-size: 0.34375rem;
+}
+.xhsg_banner img{
+	width: 9.40625rem;
+	height: 2.359375rem;
+	margin: 0 auto;
+	margin-bottom: 0.359375rem;
+}
+.place_order{
+	display: flex;
+}
+.place_order .xh_order{
+	border-left: 0.015625rem solid #d7d7d7;
+	border-right: 0.015625rem solid #f5f5f5;
+}
+.place_order .xh_order:nth-of-type(1){
+	border-left: none;
+}
+.place_order .xh_order:nth-of-type(3){
+	border-right: none;
+}
+.place_order img{
+	width: 3.296875rem;
+	height: 3.03125rem;
+}
+.xh_text{
+	padding-left: 0.15625rem;
+	padding-bottom: 0.390625rem;
+}
+.xh_text>p:first-of-type{
+	width: 2.65625rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 0.34375rem;
+	color: #0f191f;
+	font-weight: bold;
+}
+.xh_text>p{
+	font-size: 0.328125rem;
+	color: #969696;
+	margin-bottom: 0.234375rem;
+}
+.xh_text>p:nth-of-type(2) i{
+	display: block;
+	width: 0.796875rem;
+	line-height: 0.46875rem;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.296875rem;
+	color: #e80000;
+	border: 0.03125rem solid #e80000;
+	border-radius: 0.078125rem;
+	margin: 0.21875rem 0;
+}
+.xh_order{
+	position: relative;
+}
+.xh_plus>p{
+	color: #f53d09;
+	font-size: 0.28125rem;
+}
+.xh_plus .plus_btn{
+	display: block;
+	width: 0.34375rem;
+	height: 0.328125rem;
+	background: url(/home/img/plus.jpg) no-repeat center;
+	background-size: 0.34375rem 0.328125rem;
+	border: 0.03125rem solid #eaeaea;
+	border-radius: 50%;
+	padding: 0.234375rem;
+	position: absolute;
+	top: 4.84375rem;
+	right: 0.3125rem;
+}

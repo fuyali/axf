@@ -1,0 +1,282 @@
+header{
+	width: 10rem;
+	height: 1.28125rem;
+	line-height: 1.28125rem;
+	padding: 0.28125rem 0.375rem;
+	background: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.015625rem solid #eaeaea;
+
+}
+header p {
+	width: 0.25rem;
+	height: 0.40625rem;
+	background: url(../img/lt_icon.png) no-repeat;
+	background-size: 0.25rem 0.40625rem;
+}
+header h3{
+	color: #000;
+	font-size: 0.390625rem;
+}
+header div{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/fresh.png) no-repeat;
+	background-size: 0.5rem 0.5rem;
+}
+/*中间广告*/
+banner img{
+	width: 10rem;
+	height: 5.0rem;
+
+}
+/*女生节福利*/
+main{
+	width: 10rem;
+}
+.weal>p img{
+	width: 10rem;
+	height: 1.046875rem;
+}
+.weal .nsfl{
+	margin: 0.296875rem 0.375rem;
+	border: 0.03125rem solid #d5d5d5;
+	padding: 0.453125rem 0;
+}
+.nsfl{
+	display: flex;
+}
+.nsfl>a {
+	display: block;
+	border-right: 0.015625rem solid #c9c8c8;
+}
+.nsfl>a img{
+	width: 4.171875rem;
+	height: 4.1875rem;
+}
+.nsfl .nsfl_text{
+	border-left: 0.015625rem solid #b4b3b3;
+	padding-left: 0.46875rem;
+}
+.nsfl_text h2{
+	width: 4.0625rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.nsfl_text h2 a{
+	color: #0e0e0e;
+	font-size: 0.40625rem;
+}
+.nsfl_text>i{
+	color: #646464;
+	font-size: 0.328125rem;
+	font-style: normal;
+	display: block;
+	margin: 0.265625rem 0 0.0625rem 0;
+}
+.nsfl_text>span{
+	display: block;
+	width: 1.6875rem;
+	height: 0.65625rem;
+	text-align: center;
+	line-height: 0.65625rem;
+	font-size: 0.28125rem;
+	background: #fe2558;
+	color: #fff;
+	border-radius: 0.078125rem;
+	margin: 0.078125rem 0;
+}
+.nsfl_text>b{
+	display: inline-block;
+	color: #fe2558;
+	font-size: 0.421875rem;
+	margin: 0.15625rem 0;
+
+}
+.nsfl_text>b>span{
+	
+	color: #25272a;
+	font-size: 0.3125rem;
+	padding-left: 0.46875rem;
+}	
+.nsfl_text button{
+	display: block;
+	width: 3.21875rem;
+	height: 0.84375rem;
+	text-align: center;
+	line-height: 0.84375rem;
+	font-size: 0.46875rem;
+	background: #999;
+	border: none;
+	border-radius: 0.15625rem;
+	margin: 0.328125rem auto 0 auto;
+}
+/*第一波福利*/
+.first-rush-title{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 0.53125rem 0;
+}
+.first-rush-title h1{
+	color: #ffd001;
+	font-size: 0.65625rem;
+	 align-self: center;
+}
+.first-rush-title p{
+	width: 4.6875rem;
+	height: 0.78125rem;
+	text-align: center;
+	line-height: 0.78125rem;
+	color: #fff;
+	background: #ffdd00;
+	border-radius: 0.46875rem;
+	align-self: center;
+	margin-left: 0.078125rem;
+}
+.first-rush-bottom{
+	width: 10rem;
+	display: flex;
+	padding: 0 0.421875rem;
+	justifiy-content: space-between;
+}
+.first-rush-content{
+	text-align: center;
+}
+.first-rush-content:first-of-type a img{
+	border-right: 0.015625rem solid #ccc;
+}
+.first-rush-content:last-of-type a img{
+	border-left: 0.015625rem solid #dadada;
+}
+.first-rush-content a img{
+	width: 4.59375rem;
+	height: 4.0625rem;
+}
+.first-rush-content h6{
+	width: 3.4375rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0 auto;
+}
+.first-rush-content h6 a{
+	color: #171717;
+	font-size: 0.40625rem;
+}
+.first-rush-content i{
+	display: block;
+	font-style: normal;
+	font-size: 0.28125rem;
+	color: #6f6f6f;
+	padding: 0.28125rem 0;
+}
+.first-rush-content>span{
+	display: block;
+	color: #0c0c0c;
+	font-size: 0.28125rem;
+}
+.first-rush-content>span>b{
+	color: #ff4242;
+	font-size: 0.546875rem;
+}
+.first-rush-content>span>span{
+	font-size: 0.3125rem;
+	color: #979797;
+}
+.first-rush-content button{
+	display: inline-block;
+	width: 3.1875rem;
+	height: 0.9375rem;
+	text-align: center;
+	line-height: 0.9375rem;
+	background: #a3a3a3;
+	border: none;
+	border-radius: 0.46875rem;
+	color: #fff;
+	font-size: 0.359375rem;
+	margin: 0.3125rem 0 0.3125rem 0;
+}
+/*新品特惠*/
+.vouchsafe>div>img{
+	width: 10rem;
+	height: 1.046875rem;
+}
+.vouchsafe ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.vouchsafe ul li{
+	width: 3.328125rem;
+	border-left: 0.015625rem solid #dadada;
+	border-right: 0.015625rem solid #b8b8b8;
+	text-align: center;
+	position: relative;
+}
+.vouchsafe ul li:nth-of-type(1)>span{
+	display: block;
+	width: 1.203125rem;
+	height: 1.234375rem;
+	background: url(../img/rush_xpth.png) no-repeat;
+	background-size: 1.203125rem 1.234375rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.vouchsafe ul li img{
+	width: 3.296875rem;
+	height: 3.28125rem;
+}
+.vouchsafe ul li a h6{
+	font-size: 0.234375rem;
+	color: #848484;
+	width: 2.734375rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0 auto;
+}
+.vouchsafe ul li a p{
+	font-size: 0.390625rem;
+	font-weight: bold;
+	color: #ffa800;
+}
+.vouchsafe ul li a p span{
+	font-weight: normal;
+	color: #9b9b9b;
+	font-size: 0.21875rem;
+	padding-right: 0.234375rem;
+}
+.vouchsafe ul li button{
+	width: 3.28125rem;
+	height: 0.796875rem;
+	text-align: center;
+	line-height: 0.796875rem;
+	background: #ffb403;
+	color: #fff;
+	border: none;
+}
+/*尾部*/
+.foo_title img{
+	width: 10rem;
+	height: 1.046875rem;
+}
+footer p{
+	padding: 0.15625rem 0.78125rem;
+	font-size: 0.34375rem;
+	color: #323232;
+	line-height: 0.78125rem;
+	margin-bottom: 1.09375rem;
+}
+footer .order_btn{
+	position: fixed;
+	right: 0.234375rem;
+	bottom: 0.234375rem;
+}
+footer .order_btn img{
+	width: 1.5rem;
+	height: 1.5rem;
+}

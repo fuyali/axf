@@ -1,0 +1,171 @@
+header{
+	width: 10rem;
+	height: 4.21875rem;
+	background: #ffd601;
+	margin: 0 auto;
+	position: relative;
+	position: fixed;
+
+}
+.user{
+	display: flex;
+
+}
+.user_img{
+	padding: 0.65625rem 0.46875rem 0 0.46875rem;
+}
+.user_img img{
+	width: 1.828125rem;
+	height: 1.828125rem;
+}
+.user_info{
+	width: 6.09375rem;
+}
+.user_info p:first-of-type{
+	font-size: 0.375rem;
+	font-weight: bold;
+	color: #fff;
+	padding: 0.78125rem 0 0.234375rem 0;
+}
+.user_info p:last-of-type{
+	width: 2.609375rem;
+	height: 0.875rem;
+	background: url(/mine/img/mine2.png) no-repeat;
+	background-size: 2.609375rem 0.875rem;
+	padding-left: 0.90625rem;
+	line-height: 0.875rem;
+	color: #ca5724;
+	font-size: 0.234375rem;
+	font-weight: bold;
+}
+.user_more{
+	width: 0.328125rem;
+	height: 0.578125rem;
+	background: url(/mine/img/mine3.png) no-repeat;
+	background-size: 0.328125rem 0.578125rem;
+	margin-top: 1.25rem;
+}
+.collect{
+	width: 10rem;
+	height: 1.09375rem;
+	line-height: 1.09375rem;
+	position: absolute;
+	bottom: 0;
+	background: rgba(200,200,200,0.2);
+	display: flex;
+	justify-content: space-around;
+
+}
+.collect p{
+	color: #fff;
+	font-size: 0.375rem;
+	height: 0.671875rem;
+	line-height: 0.671875rem;
+	margin-top: 0.21875rem;
+}
+.collect p:first-of-type{
+	background: url(/mine/img/mine4.png) no-repeat;
+	background-size: 0.5625rem 0.5625rem;
+	padding-left: 0.9375rem;
+	border-right: 1px solid #fff;
+	padding-right: 1.25rem;
+}
+
+.collect p:last-of-type{
+	background: url(/mine/img/mine5.png) no-repeat;
+	background-size: 0.5625rem 0.5625rem;
+	padding-left: 0.9375rem;
+}
+/*主体部分*/
+#main{
+	width: 10rem;
+	background: #f0efea;
+	padding-top: 4.21875rem;
+
+}
+	
+.my_order{
+	background: #fff;
+}
+.myOrder_title{
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+	background: #fff;
+	color: #272727;
+	font-size: 0.40625rem;
+	padding-left: 0.5rem;
+	margin-top: 0.3125rem;
+	border-bottom: 0.015625rem solid #dadada;
+}
+.myOrder_title a{
+	float: right;
+	color: #929292;
+	font-size: 0.40625rem;
+	padding-right: 0.46875rem;
+}
+.my_order ul{
+	display: flex;
+	justify-content: space-around;
+	/*align-items: center;*/
+	padding-bottom: 0.46875rem;
+	text-align: center;
+}
+.my_order ul a img{
+	width: 1.0rem;
+	height: 0.96875rem;
+	margin: 0 auto;
+	padding:  0.6875rem 0 0.3125rem 0;
+}
+.my_order ul li a span{
+	display: block;
+	font-size: 0.359375rem;
+	color: #3d3d3d;
+}
+
+/*积分商城*/
+
+.integral{
+	background: #fff;
+	margin-top: 0.375rem;
+}
+.integral li a span{
+	display: block;
+	font-size: 0.359375rem;
+	color: #3d3d3d;
+}
+.integral .inter_1{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 0.78125rem;
+	border-bottom: 0.015625rem solid #ededed;
+	text-align: center;
+}
+.inter_1 img,.inter_2 img{
+	width: 1.40625rem;
+	height: 1.171875rem;
+	padding: 0.6875rem 0 0.3125rem 0;
+	margin: 0 auto;
+}
+.inter_2{
+	display: flex;
+	padding-bottom: 0.46875rem;
+}
+.inter_2 li{
+	margin: 0 0.15625rem 0 0.59375rem;
+}
+
+/*退出当前账号*/
+.exit_account{
+	margin-top: 0.625rem;
+	background: #fff;
+	width: 10rem;
+	height: 1.1875rem;
+	text-align: center;
+	line-height: 1.1875rem;
+	font-size: 0.46875rem;
+	color: #0b0b0b;
+}
+.main_line{
+	margin-top: 0.3125rem;
+	height: 0.001563rem;
+}

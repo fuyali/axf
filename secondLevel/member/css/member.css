@@ -1,0 +1,94 @@
+header{
+	width: 10rem;
+	height: 1.28125rem;
+	line-height: 1.28125rem;
+	padding: 0.28125rem 0.375rem;
+	background: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.015625rem solid #d9d9d9;
+
+}
+header p {
+	width: 0.25rem;
+	height: 0.40625rem;
+	background: url(../img/lt_icon.png) no-repeat;
+	background-size: 0.25rem 0.40625rem;
+}
+header h3{
+	color: #000;
+	font-size: 0.390625rem;
+}
+header div{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+main{
+	background: #f0f0f0;
+}
+.integral{
+	background: #fff;
+	margin-bottom: 0.3125rem;
+}
+.integral_title{
+	width: 10rem;
+	position: relative;
+	border-bottom: 0.015625rem solid #e4e4e4;
+}
+.integral_title span{
+	display: block;
+	width: 4.21875rem;
+	height: 4.1875rem;
+	margin: 0.3125rem auto;
+
+
+}
+.integral_title span img{
+	width: 4.21875rem;
+	height: 4.1875rem;
+}
+.integral_title p{
+	position: absolute;
+	left: 4.375rem;
+	top: 1.5625rem;
+	text-align: center;
+	font-size: 0.390625rem;
+	color: #999;
+
+}
+.integral_title p b{
+	display: block;
+	font-size: 0.46875rem;
+	font-weight: normal;
+}
+.inter_list{
+	display: flex;
+}
+.inter_list li{
+	width: 3.359375rem;
+	text-align: center;
+	border-right: 0.03125rem solid #e6e6e6;
+}
+.inter_list li:last-of-type{
+	border-right: none;
+}
+.inter_list li a img{
+	margin: 0.3125rem auto 0.265625rem auto;
+}
+.inter_list li a p{
+	padding-bottom: 0.3125rem;
+}
+.convert ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.convert ul li{
+	border-right: 0.03125rem solid #ededed;
+	border-bottom: 0.03125rem solid #ededed;
+}
+.convert ul li a img{
+	width: 4.96875rem;
+	height: 4.625rem;
+}
